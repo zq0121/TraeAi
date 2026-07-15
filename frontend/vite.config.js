@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [vue()],
   base: '/TraeAi/',
   build: {
-    outDir: '../dist'
+    outDir: '../docs',
+    emptyOutDir: true
   },
   server: {
     port: 5173,

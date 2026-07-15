@@ -1,0 +1,1 @@
+import{r as e}from"./request-BlpvZwzC.js";const t=()=>e({url:"/files/list/images",method:"get"}),l=()=>e({url:"/files/list/videos",method:"get"}),i=o=>`/api/v1/files/download/${encodeURIComponent(o)}`;export{l as a,i as d,t as g};
