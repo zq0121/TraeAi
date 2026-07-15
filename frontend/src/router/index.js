@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import store from '../store/index.js'
 
 const routes = [
@@ -36,7 +36,7 @@ const routes = [
   }
 ]
 
-const router = createRouter({ history: createWebHistory(), routes })
+const router = createRouter({ history: createWebHashHistory(), routes })
 
 router.beforeEach((to, from, next) => {
   if (to.path !== '/login' && !store.getters.token) return next('/login')
