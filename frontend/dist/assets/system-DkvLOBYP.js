@@ -1,0 +1,1 @@
+import{r as t}from"./request-CR1rqJop.js";const e=()=>t({url:"/system/roles",method:"get"}),o=()=>t({url:"/system/settings",method:"get"}),g=()=>t({url:"/system/logs/login",method:"get"}),r=()=>t({url:"/system/logs/operation",method:"get"});export{g as a,r as b,o as c,e as g};
