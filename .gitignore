@@ -1,0 +1,12 @@
+dist/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.vscode/
+.idea/
+.env
+steel_defect.db
+uploads/
+results/
